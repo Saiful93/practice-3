@@ -1,0 +1,203 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 160px;
+    border: 0;
+    border-top: dotted 3px;
+    text-align: center;
+    border-color: #c3c5c7;
+}
+
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #c3c5c7;
+    background-color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+/*-------Navbar---*/
+.navbar-default {
+    background-color: #02918c;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+}
+nav span {
+    color: yellow;
+}
+
+/*----Header---*/
+header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    height:100%;
+    background-size: 100%;
+    padding-bottom:30%;
+}
+.header-text {
+    padding-top: 23%;
+}
+.header-text h2 {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+.header-text p {
+    display: block;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2.2em;
+    font-style: bold;
+    color: #fff;
+}
+.header-text .small {
+    font-size: 1em;
+}
+header .bracket {
+    font-size:20px;
+    color: #fff;
+    font-weight: lighter;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+header button {
+    background-color: yellow;
+    color: black;
+}
+
+/*----About--*/
+.about-section {
+    padding-top:60px;
+    text-align: center;
+}
+.about-section i {
+    color: #02918c;
+}
+.about-section p {
+    color: #a9acaf;
+}
+.about-section h3 {
+    color: #7e8287;
+}
+.about-section h1 {
+    font-weight: 800;
+    color: #02918c;
+}
+.row-first {
+    padding-bottom: 10%;
+}
+
+.row-second .col-sm-3 {
+    border-right: 1px solid #efefef;
+}
+
+/*---Services--*/
+.services-section {
+    margin-top: 60px;
+    background-color: #f0f0e8;
+}
+.services-section i {
+    color: #02918c;
+}
+.services-section p {
+    color: #a9acaf;
+}
+.services-section h3 {
+    color: #7e8287;
+}
+.services-section h1 {
+    font-weight: 800;
+    color: #02918c;
+}
+.services-section img {
+    opacity: .5;
+}
+
+.images {
+    padding-right: 0;
+}
+.services-section hr.star-primary {
+    margin: 25px 0;
+}
+.services-first {
+    padding-left: 15px;
+}
+/*----Work--*/
+.work-section {
+    padding-top:60px;
+}
+.work-section
+.work-section .col-sm-3 {
+    padding: 0;
+}
+
+/*---Contact--*/
+.contact-section {
+    padding-top: 60px;
+    text-align: center;
+}
+.row-color {
+    background-color: #0b0b0b;
+}
+
+/*----Footer--*/
+footer {
+    background-color: #000000;
+}
